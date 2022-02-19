@@ -1,0 +1,78 @@
+.container-grid{
+display: grid;
+grid-template-columns: auto auto auto;
+grid-gap:10px;
+grid-template-rows: 100px 100px 100px;
+}
+.section1{
+grid-row:1;
+grid-column:1;
+background-color: blue;
+text-align: center;
+font-size: 20px;
+color: white;
+}
+.section2{
+grid-row:1;
+grid-column:2;
+background-color: green;
+text-align: center;
+font-size: 20px;
+color: white;
+}
+.section3{
+grid-row:1;
+grid-column:3;
+background-color: brown;
+text-align: center;
+font-size: 20px;
+color: white;
+}
+.section4{
+grid-row:2;
+grid-column:1;
+background-color: red;
+text-align: center;
+font-size: 20px;
+color: white;
+}
+.section5{
+grid-row:2;
+grid-column:2;
+background-color: gray;
+text-align: center;
+font-size: 20px;
+color: white;
+}
+.section6{
+grid-row:2;
+grid-column:3;
+background-color: yellow;
+text-align: center;
+font-size: 20px;
+color: white;
+}
+.section7{
+grid-row:3;
+grid-column:1;
+background-color: black;
+text-align: center;
+font-size: 20px;
+color: white;
+}
+.section8{
+grid-row:3;
+grid-column:2;
+background-color: darkblue;
+text-align: center;
+font-size: 20px;
+color: white;
+}
+.section9{
+grid-row:3;
+grid-column:3;
+background-color: purple;
+text-align: center;
+font-size: 20px;
+color: white;
+}
